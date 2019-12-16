@@ -15,6 +15,7 @@
 		C01B70B2238DD90700109D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01B70B0238DD90700109D2D /* LaunchScreen.storyboard */; };
 		C01B70BA238EF5E000109D2D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B70B9238EF5E000109D2D /* PhotosViewController.swift */; };
 		C01B70BC238EF68900109D2D /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B70BB238EF68900109D2D /* PhotosCell.swift */; };
+		C05AA63E23A82E720056CD1B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05AA63D23A82E720056CD1B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C01B70B3238DD90700109D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01B70B9238EF5E000109D2D /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		C01B70BB238EF68900109D2D /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		C05AA63D23A82E720056CD1B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CEC868538742A9408D942100 /* Pods-Tumble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumble.debug.xcconfig"; path = "Target Support Files/Pods-Tumble/Pods-Tumble.debug.xcconfig"; sourceTree = "<group>"; };
 		E8D82BC33E8DCEFEEAEEE462 /* Pods-Tumble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumble.release.xcconfig"; path = "Target Support Files/Pods-Tumble/Pods-Tumble.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				C01B70B3238DD90700109D2D /* Info.plist */,
 				C01B70B9238EF5E000109D2D /* PhotosViewController.swift */,
 				C01B70BB238EF68900109D2D /* PhotosCell.swift */,
+				C05AA63D23A82E720056CD1B /* DetailViewController.swift */,
 			);
 			path = Tumble;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			files = (
 				C01B70BC238EF68900109D2D /* PhotosCell.swift in Sources */,
 				C01B70BA238EF5E000109D2D /* PhotosViewController.swift in Sources */,
+				C05AA63E23A82E720056CD1B /* DetailViewController.swift in Sources */,
 				C01B70A6238DD90300109D2D /* AppDelegate.swift in Sources */,
 				C01B70A8238DD90300109D2D /* SceneDelegate.swift in Sources */,
 			);

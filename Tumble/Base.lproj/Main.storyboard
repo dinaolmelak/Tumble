@@ -43,6 +43,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="cellImageView" destination="2eB-GP-gw8" id="OOY-9j-CcX"/>
+                                            <segue destination="eVd-PS-xtv" kind="show" id="wIu-PC-Oo3"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -64,7 +65,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071.2" y="118.29085457271366"/>
+            <point key="canvasLocation" x="908" y="116"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="cUs-ya-DMB">
+            <objects>
+                <viewController id="eVd-PS-xtv" customClass="DetailViewController" customModule="Tumble" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ar0-85-dng">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xoV-tO-h6Y">
+                                <rect key="frame" x="0.0" y="44" width="375" height="194"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="ykV-2R-oFF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xoV-tO-h6Y" firstAttribute="leading" secondItem="OyZ-rT-1hu" secondAttribute="leading" id="IXX-2Y-nce"/>
+                            <constraint firstItem="xoV-tO-h6Y" firstAttribute="top" secondItem="OyZ-rT-1hu" secondAttribute="top" id="cBy-Vd-s3p"/>
+                            <constraint firstItem="xoV-tO-h6Y" firstAttribute="trailing" secondItem="OyZ-rT-1hu" secondAttribute="trailing" id="nnH-OX-TB5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OyZ-rT-1hu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Whb-gs-EZF"/>
+                    <connections>
+                        <outlet property="photoVC" destination="xoV-tO-h6Y" id="EgP-vN-D3o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Zg-8t-ydO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698" y="116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BN0-j2-lpj">
